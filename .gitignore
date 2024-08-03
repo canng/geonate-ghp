@@ -1,13 +1,18 @@
-_site
-.bundle
-.sass-cache
+# Environment files
+environment*
+
+# Compiled site
+_site/
+
+# Projects
+# projects/
+# !projects/index.html
+
+# Jekyll build process
 .jekyll-cache
 .jekyll-metadata
-.DS_store
-.ruby-version
+.sass-cache
+
+# Other files
+.DS_Store
 .tweet-cache
-Gemfile.lock
-assets/libs/
-node_modules/
-vendor
-.idea

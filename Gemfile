@@ -1,13 +1,14 @@
 source 'https://rubygems.org'
-group :jekyll_plugins do
-    gem 'jekyll', '~> 3.9.5'
-    gem 'jekyll-email-protect'
-    gem 'jekyll-github-metadata'
-    gem 'jekyll-paginate-v2'
-    gem 'jekyll-scholar'
-    gem 'jekyll-twitter-plugin'
-    gem 'jemoji'
-    gem 'unicode_utils'
-    gem 'webrick'
-    gem 'github-pages', group: :jekyll_plugins
-end
+
+# jekyll
+gem "jekyll", "4.2.0"
+
+# katex
+gem "execjs"
+
+# octokit
+gem 'octokit'
+gem 'netrc'
+
+# Twitter
+gem 'jekyll-twitter-plugin'

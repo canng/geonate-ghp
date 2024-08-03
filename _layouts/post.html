@@ -2,36 +2,80 @@
 layout: default
 ---
 
-{% if page._styles %}
-<style type="text/css">
-  {{ page._styles }}
-</style>
-{% endif %}
+<div class="news-post">
+	<div class="row">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-10">
+			<div class="media">
+				<div class="media-body">
+					<div class="title media-heading">
+						<a href="{{ page.url }}" class="off">{{ page.title }}</a>
+					</div>
+					<p>
+					<div class="smallhead">
+						{{ page.date | date: "%-d %b %Y" }}
+						{% if page.author %}
+						by <a class="off" href="
+							{% for member in site.categories.team %}
+								{% if member.title == page.author %}
+									{{ member.url }}
+								{% endif %}
+							{% endfor %}
+						">
+						{{ page.author }}
+						</a>
+						{% endif %}
+						{% if page.authors %}
+						by
+						<a class="off" href="
+							{% for member in site.categories.team %}
+								{% if member.title == page.authors.first %}
+									{{ member.url }}
+								{% endif %}
+							{% endfor %}
+						">
+						{{ page.authors.first }}
+						</a>
+						and
+						<a class="off" href="
+							{% for member in site.categories.team %}
+								{% if member.title == page.authors.last %}
+									{{ member.url }}
+								{% endif %}
+							{% endfor %}
+						">
+						{{ page.authors.last }}
+						</a>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-1"></div>
+	</div>
 
-<div class="post">
+	<div class="bigspacer"></div>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+	<div class="row">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-10">
+			{% if page.image %}
+			{% if page.link %}
+			<a href="{{ page.link }}">
+				<img class="offset" src="{{ page.image }}">
+			</a>
+			{% else %}
+			<img class="offset" src="{{ page.image }}">
+			{% endif %}
+			{% endif %}
+			<div class="post">
+				{{ content }}
+			</div>
+		</div>
+		<div class="col-lg-1"></div>
+	</div>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-  {% if site.disqus_shortname and page.comments %}
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-      var disqus_shortname  = '{{ site.disqus_shortname }}';
-      var disqus_identifier = '{{ page.id }}';
-      var disqus_title      = {{ page.title | jsonify }};
-      (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  {% endif %}
+	<div class="bigspacer"></div>
+	<div class="spacer"></div>
 
 </div>
