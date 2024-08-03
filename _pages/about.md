@@ -1,19 +1,20 @@
 ---
 layout: about
-title: <u>C</u>omputational <u>Omics</u> Lab
+title: about
 permalink: /
-description: Biomedical Science <i class="fas fa-dna"></i> x Data Science <i class="fas fa-laptop-code"></i>
+subtitle: student @ City, University of London, in London, UK
+
+profile:
+  align: right
+  image: me.jpg
+  image_circular: false # crops the image to make it circular
+  address: >
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
-contact: true # include contact us
+social: true  # includes social icons at the bottom of the page
 ---
 
-The **COmics Lab** is led by [Shimin Shuai, PhD](https://www.sustech.edu.cn/en/facultys/shiminshuai.html){:target="\_blank"}, and is a part of the Department of Human Cell Biology and Genetics, School of Medicine, [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/){:target="\_blank"} at Shenzhen, China.
+I'm a PhD student of Artificial Intelligence. My research focuses on **visual relationship detection** within images using hybrid, **neurosymbolic systems** where the symbolic components are **semantic web knowledge graphs** and **OWL ontologies**.
 
-Our mission is to **advance human health by decoding disease ecosystems with computational omics**.
-
-To learn more about our research, please see our [projects](/projects/) and [publications](/publications/). Also, don't forget to meet our [team](/team/) and check out current [job opportunities](/jobs/)!
-
-
+The macro context of my research involves blending the **neural** (connectionist) and **symbolic** traditions of AI that, throughout most of AI's history, have operated as tribal academic silos. The idea is to explore ways of combining **deep learning** (neural networks) with **symbolic knowledge representation and reasoning** (in the form of OWL ontologies, knowledge graphs and rules) in order to get the best of both worlds and demonstrate that **hybrid, neural-symbolic AI** systems can **outperform** AI systems that rely on **neural AI** (statistical, inductive, deep learning) alone.  An underlying motivation is to help show that **semantic web technologies, ontologies and knowledge graphs** are cool and can make valuable contributions to AI.
