@@ -1,19 +1,19 @@
 ---
 layout: about
-title: about
+title: <u>C</u>omputational <u>Omics</u> Lab
 permalink: /
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  address: >
-    <p>FAIR, AI@Meta</p>
-    <p>Menlo Park, CA 94025</p>
-    <p>United States</p>
+description: Biomedical Science <i class="fas fa-dna"></i> x Data Science <i class="fas fa-laptop-code"></i>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
+contact: true # include contact us
 ---
 
-I'm an AI research scientist at FAIR Computer Vision team of AI@Meta and an affiliate assistant professor in the department of Electrical Engineering, University of Washington. I was a principal researcher at Microsoft Research, Redmond. Before joining Microsoft, I obtained my PhD degree in Applied and Computational Mathematics from Caltech in 2017. My research interests are mainly in the areas of deep learning, computer vision, multimodal intelligence, and theoretical foundations for deep learning. 
+The **COmics Lab** is led by [Shimin Shuai, PhD](https://www.sustech.edu.cn/en/facultys/shiminshuai.html){:target="\_blank"}, and is a part of the Department of Human Cell Biology and Genetics, School of Medicine, [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/){:target="\_blank"} at Shenzhen, China.
+
+Our mission is to **advance human health by decoding disease ecosystems with computational omics**.
+
+To learn more about our research, please see our [projects](/projects/) and [publications](/publications/). Also, don't forget to meet our [team](/team/) and check out current [job opportunities](/jobs/)!
+
+
