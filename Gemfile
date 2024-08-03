@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-    gem 'jekyll'
+    gem 'jekyll', '~> 3.9.5'
     gem 'jekyll-email-protect'
     gem 'jekyll-github-metadata'
     gem 'jekyll-paginate-v2'
@@ -9,4 +9,6 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'jekyll-scholar'
+    gem 'github-pages', group: :jekyll_plugins
 end
