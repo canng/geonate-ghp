@@ -1,33 +1,12 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
-inline: false
-related_posts: false
+date: 2022-01-29 15:59:00-0400
+inline: true
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Slides of <a href="https://openreview.net/forum?id=fVu3o-YUGQK">my Vision-Language tutorial</a>. 
 
----
+Vision-Language Understanding is an hot research area at the intersection of computer vision (CV) and natural language processing (NLP). The main topics in this area are vision-language representation learning and various vision-language tasks, including various CV tasks (image classification, object detection, etc) and VL tasks (image/text retrieval, VQA, image captioning, etc). This tutorial has three lectures: 
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+<a href="https://drive.google.com/file/d/1Ur0njY1LMlECIhLi-fGt2cXCWKH1rL65/view?usp=sharing">Lecture 1</a> presents a few important and representative early works in vision-language. <a href="https://drive.google.com/file/d/1TfgYY5R_zraHCj_4lHqaWGoQwsiQ-pPb/view?usp=sharing">Lecture 2</a> focuses on vision-language pre-training. <a href="https://drive.google.com/file/d/1g5oFWvVhuJgtFr6JaiAVsrgy1NF4i0uY/view?usp=sharing">Lecture 3</a> introduces a few recent vision-language pre-training at even larger scales, and summarizes three trends in this area. 
 
-#### Hipster list
-
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
----
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
