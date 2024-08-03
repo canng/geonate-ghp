@@ -9,6 +9,5 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
-    gem 'jekyll-scholar'
     gem 'github-pages', group: :jekyll_plugins
 end
